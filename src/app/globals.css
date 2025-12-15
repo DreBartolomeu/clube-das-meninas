@@ -3,5 +3,20 @@
 @tailwind utilities;
 
 body {
-  background-color: #fdecef;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+html, body, #__next {
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #ffe4e6; /* rosa bem clarinho */
 }
